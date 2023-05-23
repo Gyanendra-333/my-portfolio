@@ -41,9 +41,10 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(red, green, blue);
-  color: black;
-  border: 1px solid aquamarine;
+  background: yellow;
+  color: green;
+  border: 2px solid skyblue;
+  border-radius: 20px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -55,6 +56,6 @@ ul {
 
 .btn:hover {
   background: rgba(red, green, blue, alpha);
-  color: brown;
+  color: white;
   transition: 0.3s;
 }
