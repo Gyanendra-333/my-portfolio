@@ -3,7 +3,12 @@ import "./HeroImage.css";
 
 function HeroImage() {
     return (
-        <div>HeroImage</div>
+        <div className='hero'>
+            <div className='mask'>
+
+            </div>
+        </div>
+
     );
 }
 
