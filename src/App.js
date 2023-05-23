@@ -3,8 +3,8 @@ import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import Contact from "./routes/Contact";
-import Project from "./routes/Project";
 import About from "./routes/About";
+import Projects from "./routes/Projects";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/project" element={<Projects />} />
         <Route path="/about" element={<About />} />
 
       </Routes>
