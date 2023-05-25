@@ -3,7 +3,12 @@ import React from 'react';
 
 function Project_Hero_Img() {
     return (
-        <div>Project_Hero_Img</div>
+        <div className="hero-img">
+            <div className="heading">
+                <h1>This is Heading</h1>
+                <p>This is Paragraph</p>
+            </div>
+        </div>
     );
 }
 
