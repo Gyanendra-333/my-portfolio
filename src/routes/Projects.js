@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../footer/Footer';
+
 
 function Projects() {
     return (
-        <div>Projects</div>
-    )
+        <div>
+            <Navbar />
+            <Footer />
+        </div>
+    );
 }
 
 export default Projects;
