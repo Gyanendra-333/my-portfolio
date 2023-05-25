@@ -29,6 +29,10 @@
     line-height: 30px;
 }
 
+/* .mail {
+    margin: 16px 0;
+} */
+
 .right {
     height: 100%;
     max-width: 100%;
@@ -39,4 +43,19 @@
 
 .social {
     margin-top: 1rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:640px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
 }

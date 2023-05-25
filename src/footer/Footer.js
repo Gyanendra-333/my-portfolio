@@ -14,17 +14,17 @@ function Footer() {
                             <p>Tilhar, Shahjahanpur</p>
                             <p>Uttar Pradesh, India</p>
                         </div>
-
-                        <div className="phone">
-                            <h4><FaPhone size={20} style={{ color: "aliceblue", marginRight: "2rem" }} /> +91-7355161229</h4>
-                        </div>
-
-
-                        <div className="mail">
-                            <h4><FaMailBulk size={20} style={{ color: "aliceblue", marginRight: "2rem" }} />pgyanendra333@gmail.com</h4>
-                        </div>
-
                     </div>
+                    <div className="phone">
+                        <h4><FaPhone size={20} style={{ color: "aliceblue", marginRight: "2rem" }} /> +91-7355161229</h4>
+                    </div>
+
+
+                    <div className="mail">
+                        <h4><FaMailBulk size={20} style={{ color: "aliceblue", marginRight: "2rem" }} />pgyanendra333@gmail.com</h4>
+                    </div>
+
+                    {/* </div> */}
                 </div>
                 <div className="right">
                     <h4 >About us</h4>
