@@ -1,15 +1,17 @@
 import "./Project_Hero_Img.css";
-import React from 'react';
+import React, { Component } from 'react';
 
-function Project_Hero_Img() {
-    return (
-        <div className='hero-img'>
-            <div className='heading'>
-                <h1>This is Heading</h1>
-                <p>This is Paragraph</p>
-            </div>
-        </div>
-    );
+class Project_Hero_Img extends Component {
+    render() {
+        return (
+            <div className='hero-img'>
+                <div className='heading'>
+                    <h1>{this.props.heading}</h1>
+                    <p>{this.props.text}</p>
+                </div>
+            </div >
+        );
+    }
 }
 
 export default Project_Hero_Img;

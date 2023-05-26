@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div>
             <Navbar />
-            <Project_Hero_Img />
+            <Project_Hero_Img heading="PROJECTS." text="There Are Some Projects of me." />
             <Footer />
         </div>
     );
